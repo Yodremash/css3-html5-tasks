@@ -7,11 +7,12 @@ body {
   padding: 16px;
   width: 512px;
   height: 128px;
-  box-sizing: border-box;
 }
 .rectangle1 {
   background-color: aquamarine;
+  box-sizing: content-box;
 }
 .rectangle2 {
   background-color: azure;
+  box-sizing: border-box;
 }
