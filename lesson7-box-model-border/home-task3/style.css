@@ -1,8 +1,6 @@
 .block {
   margin: 50px;
-  padding: 50px;
   border: 2px solid;
-  box-sizing: border-box;
 }
 .first {
   background-color: blue;
@@ -14,5 +12,6 @@
   background-color: green;
 }
 .fourth {
+  padding: 50px;
   background-color: pink;
 }
