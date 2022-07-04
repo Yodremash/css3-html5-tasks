@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  width: 100hv;
+  min-width: 100hv;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
   box-sizing: border-box;
   flex-wrap: wrap;
   flex-shrink: 1;
-  width: 300px;
+  flex-basis: 300px;
   flex-grow: 1;
   margin: 8px;
   padding: 16px;
