@@ -28,8 +28,7 @@
 }
 .head {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 50%;
   width: 200px;
   height: 200px;
   background-color: aquamarine;
