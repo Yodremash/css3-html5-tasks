@@ -8,16 +8,17 @@
   background-color: darkturquoise;
   position: fixed;
 }
-
+.nav {
+  align-items: center;
+}
 .nav-list {
   position: relative;
   top: -5px;
-  height: 40px;
 }
 .nav-item {
-  height: 40px;
+  display: inline;
   list-style-type: none;
-  display: inline-block;
+  float: left;
   margin-left: 16px;
   color: white;
 }
@@ -29,8 +30,9 @@
 }
 .head {
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 200px;
   height: 200px;
   background-color: aquamarine;
