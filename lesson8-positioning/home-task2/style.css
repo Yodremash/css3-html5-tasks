@@ -12,10 +12,11 @@
 
 .nav-list {
   position: relative;
-  top: -5px;
+  top: 10px;
+  height: 40px;
+  margin: 0;
 }
 .nav-item {
-  display: inline;
   list-style-type: none;
   float: left;
   margin-left: 16px;
