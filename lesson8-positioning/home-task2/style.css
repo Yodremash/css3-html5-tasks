@@ -10,11 +10,11 @@
   display: inline-block;
 }
 .nav-list {
-  margin: 0;
+  text-align: left;
+  margin: 11px;
+  padding: 0px;
 }
 .nav-item {
-  position: relative;
-  bottom: -10px;
   display: inline;
   height: 40px;
   margin-left: 16px;
