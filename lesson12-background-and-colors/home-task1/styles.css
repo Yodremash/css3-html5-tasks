@@ -1,9 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .gallery {
   display: flex;
 }
 .image {
   background-repeat: no-repeat;
-  background-clip: border-box;
   background-position: center;
   background-size: contain;
   height: 200px;
