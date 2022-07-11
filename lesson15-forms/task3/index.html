@@ -16,7 +16,8 @@
     <style>
       input[type='checkbox'] {
         visibility: hidden;
-        margin: 16px;
+        width: 0;
+        height: 0;
       }
       .checkmark {
         width: 25px;
@@ -29,11 +30,11 @@
       }
 
       .checkbox {
-        position: relative;
+        display: inline-block;
+        margin: 16px;
         padding-left: 35px;
         font-size: 24px;
-        margin: 16px;
-        top: 8px;
+        position: relative;
       }
 
       .checkbox input:checked + span.checkmark {
@@ -42,9 +43,9 @@
     </style>
   </head>
   <body>
-    <label class="checkbox"
-      >Checkbox
-      <input type="checkbox" />
+    <label class="checkbox">
+      Checkbox
+      <input type="checkbox" name="agree" />
       <span class="checkmark"></span>
     </label>
   </body>
