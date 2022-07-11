@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input[type='checkbox'] {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+      }
+      .checkmark {
+        width: 25px;
+        height: 25px;
+        background-color: #d3d3d3;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .checkbox {
+        position: relative;
+        padding-left: 35px;
+        font-size: 24px;
+        margin: 16px;
+      }
+
+      .checkbox input:checked + span.checkmark {
+        background-color: #006400;
+      }
+    </style>
+  </head>
+  <body>
+    <label class="checkbox"
+      >Checkbox
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+  </body>
+</html>
