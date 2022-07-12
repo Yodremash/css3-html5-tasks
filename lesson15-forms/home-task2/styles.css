@@ -1,0 +1,12 @@
+form {
+  margin: 32px;
+}
+
+.form-control,
+.languages {
+  margin: 8px;
+}
+
+textarea {
+  color: #757575;
+}
