@@ -17,7 +17,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 9vh;
+  height: 8vh;
   background-image: linear-gradient(60deg, red, orange);
 }
 .main {
@@ -56,7 +56,7 @@ h1 {
   color: #8b0000;
   background-color: #e5e5e5;
   font-weight: 700;
-  font-size: 1.175em;
+  font-size: 1.125em;
 }
 .section__header {
   display: flex;
